@@ -42,6 +42,7 @@ Instalar a extensão Live Server
 Passos
 
 Baixe o repositório ou clone:
+https://vercel.com/thifani-pereiras-projects/challenge-amigo-secreto
 
 https://github.com/Thifani-Pereira/Amigo-secreto
 
