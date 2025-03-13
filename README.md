@@ -45,6 +45,9 @@ Baixe o repositório ou clone:
 
 https://github.com/Thifani-Pereira/Amigo-secreto
 
+Tambem disponivel no Vercel:
+https://vercel.com/thifani-pereiras-projects/challenge-amigo-secreto
+
 Abra a pasta no VS Code:
 
 cd challenge-amigo-secreto_pt
