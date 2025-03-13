@@ -73,7 +73,9 @@ Clique em "Sortear amigo" para ver o resultado
 └── assets/         # Imagens e ícones
 
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
+
 // Array para armazenar os nomes
+
 let amigos = [];
 
 // Função para adicionar um amigo à lista
@@ -89,6 +91,7 @@ function adicionarAmigo() {
     atualizarLista();
 }
 // Função para atualizar a lista de amigos na interface
+
 function atualizarLista() {
     const listaAmigos = document.getElementById('listaAmigos');
     listaAmigos.innerHTML = '';
@@ -98,6 +101,7 @@ function atualizarLista() {
         listaAmigos.appendChild(li);
     });
 }
+
 // Função para sortear um amigo aleatoriamente
 function sortearAmigo() {
     if (amigos.length === 0) {
@@ -108,6 +112,7 @@ function sortearAmigo() {
     const resultado = document.getElementById('resultado');
     resultado.innerHTML = `O amigo secreto é: <strong>${amigoSorteado}</strong>`;
 }
-/ Resetar a lista após o sorteio
+
+// Resetar a lista após o sorteio
     listaAmigos = [];
     atualizarLista(); // Atualiza a interface para limpar a lista
